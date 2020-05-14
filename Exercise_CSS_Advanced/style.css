@@ -2,13 +2,15 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #625240;
 }
 
 header,
 nav,
 main,
 footer{
-    background-color: lightgrey;
+    background-color: #F0F1F1;
     text-align: center;
 }
 
@@ -22,11 +24,29 @@ nav{
 }
 
 nav > ul > li{
-    float: left;
+    display: inline;
     list-style: none;
     padding-left: 15px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited,
+a:visited{
+    color: #625240;
+}
+
+nav > ul{
+    margin: 0;
     padding-top: 15px;
 }
+
 main{
     height: 50px;
     margin: 15px 0;
@@ -42,7 +62,7 @@ main > p{
     display: inline-block;
     height: 50px;
     width: 32.1%;
-    background-color: lightgrey;
+    background-color: #F0F1F1;
     text-align: center;
 }
 
@@ -62,53 +82,6 @@ footer{
     height: 50px;
 }
 
-
-
-
-
-
-/* body{
-    margin: 0;
-    padding: 0;
+footer > p{
+    padding-top: 15px;
 }
-
-header{
-    width: 100%;
-    text-align: center;
-    height: 50px;
-}
-
-nav{
-    width: 100%;
-    background-color: darkgrey;
-    height: 50px;
-}
-
-nav > ul > li{
-    float: left;
-    list-style: none;
-    padding-left: 15px;
-}
-
-main{
-    width: 100%;
-    background-color: darkgrey;
-    height: 50px;
-    vertical-align: middle;
-}
-
-article > div{
-    background-color: darkgrey;
-    margin: 5px;
-    display: inline-block;
-    width: 30%;
-    height: 50px;
-}
-
-footer{
-    background-color: darkgrey;
-    width: 100%;
-    text-align: center;
-    height: 50px;
-} */
-
