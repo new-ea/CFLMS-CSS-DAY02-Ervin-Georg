@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header,
+nav,
+main,
+footer{
+    background-color: lightgrey;
+    text-align: center;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+}
+
+nav{
+    height: 50px;
+}
+
+nav > ul > li{
+    float: left;
+    list-style: none;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+main{
+    height: 50px;
+    margin: 15px 0;
+}
+
+main > p{
+    padding-top: 15px;
+}
+
+.div_1,
+.div_2,
+.div_3{
+    display: inline-block;
+    height: 50px;
+    width: 32.1%;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.div_1{
+    margin-right: 15px;
+}
+
+.div_3{
+    margin-left: 15px;
+}
+
+div > p{
+    padding-top: 2px;
+}
+
+footer{
+    height: 50px;
+}
+
+
+
+
+
+
+/* body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+
+nav{
+    width: 100%;
+    background-color: darkgrey;
+    height: 50px;
+}
+
+nav > ul > li{
+    float: left;
+    list-style: none;
+    padding-left: 15px;
+}
+
+main{
+    width: 100%;
+    background-color: darkgrey;
+    height: 50px;
+    vertical-align: middle;
+}
+
+article > div{
+    background-color: darkgrey;
+    margin: 5px;
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+}
+
+footer{
+    background-color: darkgrey;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+} */
+
