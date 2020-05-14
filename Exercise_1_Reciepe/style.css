@@ -1,0 +1,57 @@
+.container 
+{
+	margin: auto;
+	width: 800px;
+}
+
+
+p 
+{
+	color:#707070;
+}
+
+li
+{
+	color:#707070;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+header
+{
+	text-align: center;
+}
+
+h1
+{
+	color:#DB0038;
+}
+
+h2
+{
+	color:#3998A3;
+}
+
+h3
+{
+	color:#474747;
+}
+
+.hero
+{
+	background-color:#f4f4f4;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.rating > span
+{
+	color:#F4B400;
+}
+
+footer
+{
+	text-align:center;
+}
+
+body {font-family: 'Happy Monkey', cursive;}
